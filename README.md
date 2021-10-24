@@ -11,10 +11,10 @@
 
 ## Wide World Importers
 **WWI is a wholesale novelty goods importer and distributor operating from the San Francisco bay area**
- 
+ ![](Dashboard_Screenshots/pages_gif.gif)
 **(this is a sample database for Microsoft SQL)**
 
-![](Dashboard_Screenshots/games_dashboard_gif.gif)
+
 This readme includes various screenshots, but you can view the actual dashboard [here].
 
 
@@ -24,7 +24,7 @@ This readme includes various screenshots, but you can view the actual dashboard 
 3. Once the original data was cleaned, it was then merged via a right join from 'games' to 'steam.' The new 'biggames' dataframe was passed through a .melt function to restructure it  for use in Tableau.
 4. The dashboard's background/style was designed in Figma then built in Tableau.
 
-
+![](Dashboard_Screenshots/tooltip_gif.gif)
 ## Dashboard Highlights
 
 **The Platform/Genre Bar Graph** 
