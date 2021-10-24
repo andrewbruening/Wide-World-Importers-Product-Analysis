@@ -34,6 +34,7 @@ This readme includes various screenshots, but you can view the actual dashboard 
     Is the new Candy category spreading our resources too thin?
 
     Profit per product can be seen in this box plot to evaluate the efficacy of the Candy category as a whole. A higher concentration of points near the LQ is not a great indication for the success of these products, but more data points would be necessary to reach a more accurate conclusion. *(see **i bubble** on Dashboard Home Sidebar)*
+![](Dashboard_Screenshots/home_with_i_bubble.png)
 
 - **Q3 is Crucial:**
     One key point to note about our metrics is that they've been calculated based only on the first two quarters of 2016, but all four quarters of previous years. This only partially excuses our sales sums. We are still seeing downward trends in all product categories - the steepest we've seen thus far.
