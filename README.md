@@ -10,8 +10,9 @@
 - ⛳ A nice quote: "If it's worth doing, it's worth doing well"
 
 ## Wide World Importers
-**a wholesale novelty goods importer and distributor operating from the San Francisco bay area**
-**(a sample database for Microsoft SQL)**
+**WWI is a wholesale novelty goods importer and distributor operating from the San Francisco bay area**
+ 
+**(this is a sample database for Microsoft SQL)**
 
 ![](Dashboard_Screenshots/games_dashboard_gif.gif)
 This readme includes various screenshots, but you can view the actual dashboard [here].
