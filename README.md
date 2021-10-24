@@ -13,16 +13,17 @@
 **WWI is a wholesale novelty goods importer and distributor operating from the San Francisco bay area**
  
  ![](Dashboard_Screenshots/pages_gif.gif)
- This is a sample [database] for Microsoft SQL 
+ Here's a link to the SQL [database] from Microsoft
 
-This readme includes various screenshots, but you can view the actual dashboard [here].
+This readme includes various screenshots, but you can view the actual dashboard [here]
 
 
 ## Approach
-1. Python was used to clean two datasets ('steam' and 'games') which both contained various measures of video game data. There were many inconsistencies in game titles which could not have been cleaned without heavily relying on regex. Lambda functions were preferred.
-2. Throughout the cleaning process, a few original functions were written and used repeatedly to monitor the effectiveness of NaN removal strategies.
-3. Once the original data was cleaned, it was then merged via a right join from 'games' to 'steam.' The new 'biggames' dataframe was passed through a .melt function to restructure it  for use in Tableau.
-4. The dashboard's background/style was designed in Figma then built in Tableau.
+1. The pyodbc package was used to connect to the WWI database and query via python. 
+2. First, SQL was used to create the **'productdf'** dataframe which was comprised of both qualitative and quantitative data at the granularity level of Stock Item ID. We'd like to see a breakdown of sales success per category>subcategory>product>size/color.
+3. Next, SQL was then used to create **'timedf'** which will be used to compare transformations of revenue and profit over time.
+4. Regex was implemented to standardize StockItemName in **'productdf'**, and categorize StockItemName in **'timedf'**.
+5. The dashboard's background/style was designed in Figma and built in Tableau.
 
 ![](Dashboard_Screenshots/tooltip_gif.gif)
 ## Dashboard Highlights
