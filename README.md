@@ -23,8 +23,9 @@ This readme includes various screenshots, but you can view the actual dashboard 
 2. First, SQL was used to create the **'productdf'** dataframe which detailed qualitative and quantitative data at the granularity level of Stock Item ID. We'd like to see a breakdown of sales success per category>subcategory>product>size/color.
 3. Next, SQL was then used to create **'timedf'** which will compare transformations of revenue and profit over time.
 4. Regex was implemented to standardize StockItemName in **'productdf'**, and to categorize it in **'timedf'**.
-5. And finally, the two dataframes were imported to Tableau for dashboard creation.
-
+5. And finally, the two dataframes were exported from Python and imported to Tableau. 
+6. The complete dashboard features three pages via sidebar navigation buttons, modular visualizations per filter parameters, and hover tooltips on most graphics and text boxes.
+![](Dashboard_Screenshots/tooltip_gif.gif)
 
 ## Data Insights
 - **New products; new priorities:** 
