@@ -54,13 +54,11 @@ The most successful Publishers found their niches within specific genres and wer
 ## Data Insights
 
 - **New products; new priorities:** 
-    In 2016, we added 8 new products in a brand new Candy category. We may need to reconsider how we chose to allocate our resources.
-
-    It's likely that our ad spend, human resources, and social media efforts were redistributed to promote this new array of products. As proven by our steep decline (see Line Graph), our current arrangement is unsustainable.
+    In 2016, we added 8 new products in a brand new Candy category. We may need to reconsider how we chose to allocate our resources. It's likely that our ad spend, human resources, and social media efforts were redistributed to promote this new array of products. As proven by our steep decline, our current arrangement is unsustainable. *(see Line Graph)*
 
     Is the new Candy category spreading our resources too thin?
 
-    Profit per product can be seen in this box plot to evaluate the efficacy of the Candy category as a whole. A higher concentration of points near the LQ is not a great indication for the success of these products, but more data points would be necessary to reach a more accurate conclusion.
+    Profit per product can be seen in this box plot to evaluate the efficacy of the Candy category as a whole. A higher concentration of points near the LQ is not a great indication for the success of these products, but more data points would be necessary to reach a more accurate conclusion. *(see **i icon** on Dashboard Home)*
 
 
 
