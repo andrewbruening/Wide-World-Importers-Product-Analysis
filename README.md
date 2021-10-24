@@ -20,10 +20,10 @@ This readme includes various screenshots, but you can view the actual dashboard 
 
 ## Approach
 1. The pyodbc package was used to connect to the WWI database and query via python. 
-2. First, SQL was used to create the **'productdf'** dataframe which was comprised of both qualitative and quantitative data at the granularity level of Stock Item ID. We'd like to see a breakdown of sales success per category>subcategory>product>size/color.
-3. Next, SQL was then used to create **'timedf'** which will be used to compare transformations of revenue and profit over time.
-4. Regex was implemented to standardize StockItemName in **'productdf'**, and categorize StockItemName in **'timedf'**.
-5. The dashboard's background/style was designed in Figma and built in Tableau.
+2. First, SQL was used to create the **'productdf'** dataframe which detailed qualitative and quantitative data at the granularity level of Stock Item ID. We'd like to see a breakdown of sales success per category>subcategory>product>size/color.
+3. Next, SQL was then used to create **'timedf'** which will compare transformations of revenue and profit over time.
+4. Regex was implemented to standardize StockItemName in **'productdf'**, and to categorize it in **'timedf'**.
+5. And finally, the two dataframes were imported to Tableau for dashboard creation.
 
 ![](Dashboard_Screenshots/tooltip_gif.gif)
 ## Dashboard Highlights
@@ -53,7 +53,16 @@ The most successful Publishers found their niches within specific genres and wer
 
 ## Data Insights
 
-- **Wii Sports** earned its place as the #1 best-selling title. While other platforms focused efforts on online, multiplayer, multiplatform franchises, Nintendo doubled down on local multiplayer with its groundbreaking motion-activated IPs. *(see Platforms)*
+- **New products; new priorities:** 
+    In 2016, we added 8 new products in a brand new Candy category. We may need to reconsider how we chose to allocate our resources.
+
+    It's likely that our ad spend, human resources, and social media efforts were redistributed to promote this new array of products. As proven by our steep decline (see Line Graph), our current arrangement is unsustainable.
+
+    Is the new Candy category spreading our resources too thin?
+
+    Profit per product can be seen in this box plot to evaluate the efficacy of the Candy category as a whole. A higher concentration of points near the LQ is not a great indication for the success of these products, but more data points would be necessary to reach a more accurate conclusion.
+
+
 
 - **Deep Pockets:** The hyper-portable Nintendo DS became the perfect addition to Japan's on-the-go pedestrian communities, made-official by its status as their most successful platform. *(see Subgroups)*
 
