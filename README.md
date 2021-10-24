@@ -25,6 +25,7 @@ This readme includes various screenshots, but you can view the actual dashboard 
 4. Regex was implemented to standardize StockItemName in **'productdf'**, and to categorize it in **'timedf'**.
 5. And finally, the two dataframes were exported from Python and imported to Tableau. 
 6. The complete dashboard features three pages via sidebar navigation buttons, modular visualizations per filter parameters, and hover tooltips on most graphics and text boxes.
+ 
 ![](Dashboard_Screenshots/tooltip_gif.gif)
 
 ## Data Insights
@@ -34,12 +35,14 @@ This readme includes various screenshots, but you can view the actual dashboard 
     Is the new Candy category spreading our resources too thin?
 
     Profit per product can be seen in this box plot to evaluate the efficacy of the Candy category as a whole. A higher concentration of points near the LQ is not a great indication for the success of these products, but more data points would be necessary to reach a more accurate conclusion. *(see **i bubble** on Dashboard Home Sidebar)*
+     
 ![](Dashboard_Screenshots/home_with_i_bubble.png)
 
 - **Q3 is Crucial:**
     One key point to note about our metrics is that they've been calculated based only on the first two quarters of 2016, but all four quarters of previous years. This only partially excuses our sales sums. We are still seeing downward trends in all product categories - the steepest we've seen thus far.
 
     Identifying problem areas such as our dismal unit margin or a lack of resources in other key departments is pivotal for 3rd and 4th quarter improvement. *(see **i bubble** on Line Graph Sidebar)*
+     
 ![](Dashboard_Screenshots/line_with_i_bubble.png)
 - **Our contribution margins aren't contributing enough:**
     The standard markup for individual retail products is 50%. In previous years, we've exceeded that number at an average margin of 54%. In 2016, we averaged a troublesome 25%. 
@@ -50,6 +53,7 @@ This readme includes various screenshots, but you can view the actual dashboard 
 	- What was the logic behind the price point of USB products? 
 	- Were they part of a promotion?
 	- Was this part of a loss leader strategy?
+     
 ![](Dashboard_Screenshots/scatter_with_i_bubble.png)
 ## See the complete interactive dashboard [here]
 
