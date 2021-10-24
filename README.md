@@ -25,34 +25,8 @@ This readme includes various screenshots, but you can view the actual dashboard 
 4. Regex was implemented to standardize StockItemName in **'productdf'**, and to categorize it in **'timedf'**.
 5. And finally, the two dataframes were imported to Tableau for dashboard creation.
 
-![](Dashboard_Screenshots/tooltip_gif.gif)
-## Dashboard Highlights
-
-**The Platform/Genre Bar Graph** 
-![](Dashboard_Screenshots/platform_bar_gif.gif)
-- This graph was achieved with a combined field (platform & genre) bar graph on a dual axis with a shapes graph (the controller icons)
-- Each shade of blue details a different genre within each platform, ordered by # of sales. 
-- Tooltips can be accessed by hovering. Controller icons display similar platform stats (excluding genres)
-- Parameters can then be used to filter the data by Release Year or Region. Nearly every graph and table in the dashboard can be filtered by these parameters.
-
-**Overlapping Circle Viz** 
-![](Dashboard_Screenshots/overlappingcircles_16x9_2.png)
-- Visualizations like this can be made in Tableau with an intricate tweaking of calculated fields. For example, here's a window into my columns and rows pills:
- 
-    **Columns:** SIN([Index -1]\*PI()/180)\*[TC Value]
-     
-    **Rows:** COS([Index -1]\*PI()/180)\*([TC Value])+([TC Value])
-     
-- While there are many things that Tableau *can* be used for, some things are better off created in another program like Figma. The overlapping circle graph is one of those things. Building it in Tableau was less than intuitive, but it's important to note that the circles **are** proportional to each subgroup's sales totals.
-- In conclusion, tackling juxtaposition with this type of visualization turned out to be a great choice. I'm very satisfied with the result.
-
-**Publisher Bubble Chart**
-![](Dashboard_Screenshots/publishers_gif.gif)
-The most successful Publishers found their niches within specific genres and were able to corner a large portion of the market by doing so. We know that Nintendo is world-famous for their first-party platformer franchise (Mario), and EA has been the go-to for sports games for many years (FIFA, Madden). How do Publishers' #1 genres compare to their priorities?
-
 
 ## Data Insights
-
 - **New products; new priorities:** 
     In 2016, we added 8 new products in a brand new Candy category. We may need to reconsider how we chose to allocate our resources. It's likely that our ad spend, human resources, and social media efforts were redistributed to promote this new array of products. As proven by our steep decline, our current arrangement is unsustainable. *(see Line Graph)*
 
@@ -63,30 +37,17 @@ The most successful Publishers found their niches within specific genres and wer
 - **Q3 is Crucial:**
     One key point to note about our metrics is that they've been calculated based only on the first two quarters of 2016, but all four quarters of previous years. This only partially excuses our sales sums. We are still seeing downward trends in all product categories - the steepest we've seen thus far.
 
-    Identifying problem areas such as our dismal unit margin or a lack of resources in other key departments is pivotal for 3rd and 4th quarter improvement. *(see **i bubble** on Line Graph Page)*
+    Identifying problem areas such as our dismal unit margin or a lack of resources in other key departments is pivotal for 3rd and 4th quarter improvement. *(see **i bubble** on Line Graph Sidebar)*
 
 - **Our contribution margins aren't contributing enough:**
     The standard markup for individual retail products is 50%. In previous years, we've exceeded that number at an average margin of 54%. In 2016, we averaged a troublesome 25%. 
 
-    One identifiable weak point is our USB category. *(see **i bubble** on Scatter Plot Page)*
+    One identifiable weak point is our USB category. *(see **i bubble** on Scatter Plot Sidebar)*
     
     This raises a few questions: 
 	- What was the logic behind the price point of USB products? 
 	- Were they part of a promotion?
 	- Was this a loss leader strategy?
-
-### Looking Back
-
-- 'games' was over twice the size of 'steam', but had much less integrity (NaN %, inconsistent Title formatting)
-- 'steam' was pleasant to work with, and was prioritized for its sales data
-- To avoid disturbing the accuracy of global rankings, I decided against dropping biggames titles with NaN Publisher values
-- The amount of overlap between 'games' and 'steam' was almost negligible, and had I discerned that early on in the project, I may not have approached the datasets with the regex and merges in the way that I did -- Noted!
-
-### Moving Forward
-
-These datasets didn't include the measures necessary for a financial analysis. In the future, I'd like to work with a dataset that provides insight into how publishers prioritize budgets for certain franchises with regards to their profit margins. With the proper data, I'd like to see tiered lists for publishers and their respective franchises. 
-
-Nintendo's Tier 1 would surely include the Mario franchise. How would other franchises like Kirby, Metroid, Zelda, etc. rank?)
 
 ## See the complete interactive dashboard [here]
 
