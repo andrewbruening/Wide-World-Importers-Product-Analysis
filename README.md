@@ -58,17 +58,22 @@ The most successful Publishers found their niches within specific genres and wer
 
     Is the new Candy category spreading our resources too thin?
 
-    Profit per product can be seen in this box plot to evaluate the efficacy of the Candy category as a whole. A higher concentration of points near the LQ is not a great indication for the success of these products, but more data points would be necessary to reach a more accurate conclusion. *(see **i icon** on Dashboard Home)*
+    Profit per product can be seen in this box plot to evaluate the efficacy of the Candy category as a whole. A higher concentration of points near the LQ is not a great indication for the success of these products, but more data points would be necessary to reach a more accurate conclusion. *(see **i bubble** on Dashboard Home Sidebar)*
 
+- **Q3 is Crucial:**
+    One key point to note about our metrics is that they've been calculated based only on the first two quarters of 2016, but all four quarters of previous years. This only partially excuses our sales sums. We are still seeing downward trends in all product categories - the steepest we've seen thus far.
 
+    Identifying problem areas such as our dismal unit margin or a lack of resources in other key departments is pivotal for 3rd and 4th quarter improvement. *(see **i bubble** on Line Graph Page)*
 
-- **Deep Pockets:** The hyper-portable Nintendo DS became the perfect addition to Japan's on-the-go pedestrian communities, made-official by its status as their most successful platform. *(see Subgroups)*
+- **Our contribution margins aren't contributing enough:**
+    The standard markup for individual retail products is 50%. In previous years, we've exceeded that number at an average margin of 54%. In 2016, we averaged a troublesome 25%. 
 
-- **Franchise Families:** Mario, Pokémon, Call of Duty, and Grand Theft Auto have all become household names. These franchises have transcended generations for decades, and are largely responsible for the success of their platforms. *(see Subgroups)*
-
-- **Publisher Priorities:** The top 3 publishers (Nintendo, EA, Activition) dominated the markets for their own respective genres (Platformer, Sports, Shooter). Each of these genres became each publisher's #1 genre by a longshot. *(see Publishers)*
-
-- **The Shift in Shooters:** The steep upward trend in the Shooter  genre is consistent across all regions and spans multiple decades, until decreasing steadily around the late 2010s. Upon closer inspection, this downward trend is apparent across all genres. Can we consider it to be a limitation of our dataset, lacking a breadth of titles in more recent years, or is it an accurate depiction of the gaming industry as a whole? *(see Regions)*
+    One identifiable weak point is our USB category. *(see **i bubble** on Scatter Plot Page)*
+    
+    This raises a few questions: 
+	- What was the logic behind the price point of USB products? 
+	- Were they part of a promotion?
+	- Was this a loss leader strategy?
 
 ### Looking Back
 
