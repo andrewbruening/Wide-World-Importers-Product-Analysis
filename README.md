@@ -11,9 +11,9 @@
 
 ## Wide World Importers
 **WWI is a wholesale novelty goods importer and distributor operating from the San Francisco bay area**
+ 
  ![](Dashboard_Screenshots/pages_gif.gif)
-**(this is a sample database for Microsoft SQL)**
-
+ This is a sample [database] for Microsoft SQL 
 
 This readme includes various screenshots, but you can view the actual dashboard [here].
 
@@ -81,4 +81,5 @@ Nintendo's Tier 1 would surely include the Mario franchise. How would other fran
 
 [Tableau]: https://public.tableau.com/app/profile/andrew.bruening
 [Github]: https://github.com/andrewbruening
-[here]: https://public.tableau.com/app/profile/andrew.bruening/viz/TopGlobalVideoGameSales/DBPlatforms
+[here]: https://public.tableau.com/views/WideWorldImportersProductAnalysis/HomeDash?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link
+[database]: https://docs.microsoft.com/en-us/sql/samples/wide-world-importers-what-is?view=sql-server-ver15
